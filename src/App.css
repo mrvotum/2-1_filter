@@ -1,0 +1,46 @@
+button {
+  border: none;
+  background-color: none;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 10px 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+}
+.btn:active {
+  border-bottom: 1px solid #000;
+}
+.selected {
+  background-color: rgb(220, 220, 220);
+}
+
+.App {
+  padding: 10px 150px;
+  width: 100%;
+}
+
+.imagesHolder {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img {
+  object-fit: cover;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
